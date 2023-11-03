@@ -107,6 +107,7 @@ ul li {
     text-align: left;
     color: white;
     font-size: 15px;
+    line-height: 25px;
 }
 .kepek {
     display: flex;
@@ -119,4 +120,80 @@ ul li {
     border-radius: 20px;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
+}
+.buborek{
+    background-color: white;
+    padding: 5px;
+    border-radius: 25px;
+    color: black;
+    grid-template-columns: 1fr 1fr;
+
+}
+.buborek ul {
+    padding: 0;
+    list-style: none;
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: baseline;
+    justify-items: center;
+}
+
+.buborek ul li{
+    color: black;
+    gap: 60px;
+}
+.kiskep {
+    width: 60px;
+}
+.bubi {
+    color: black;
+    text-align: justify;
+    line-height: 16px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+.buborek ul li a{
+    color: white;
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+    background-color:orangered;
+    padding: 15px;
+    border-radius: 25px;
+    padding-left: 100%;
+    padding-right: 100%;
+}
+h4{
+    font-size: 20px;
+}
+.buborek2 ul {
+    padding: 10px;
+    list-style: none;
+    background-color: rgb(83, 79, 79);
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: baseline;
+    justify-items: center;
+}
+
+.buborek2 p {
+    text-align: left;
+    font-size: 15px;
+    line-height: 16px;
+}
+.buborek2 ul li a {
+    color: white;
+    margin-top: 30px;
+    list-style-type: none;
+    text-decoration: none;
+    border: 2px solid orangered;
+    padding: 10px 50px 10px 50px;
+    border-radius: 25px;
+
 }

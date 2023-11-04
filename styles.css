@@ -114,6 +114,21 @@ ul li {
     padding: 0;
     grid-template-columns: 1fr 1fr;
     gap: 60px;
+    position: relative;
+}
+.felirat{
+    position: absolute;
+    bottom: 8px;
+    left: 10%;
+    font-size: 20px;
+    color: white;
+}
+.felirat2 {
+    position:absolute;
+    bottom: 8px;
+    left: 68%;
+    font-size: 20px;
+    color: white;
 }
 .kep {
     width: 46%;
